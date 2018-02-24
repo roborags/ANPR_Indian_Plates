@@ -1,0 +1,11 @@
+Img_Proc_Num:
+Preprocessing.
+
+find possible chars in scene:
+find contour.
+check if contour is valid by checking bound area 
+If valid add to the vector of contours.( area number etc details)
+
+Next we check matching characters.
+Take single pair and compare with others in the vector.
+Compare various parameters like distance , angle, area etc

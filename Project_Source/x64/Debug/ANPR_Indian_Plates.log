@@ -1,0 +1,29 @@
+﻿Build started 11/22/2017 7:41:29 PM.
+     1>Project "E:\Projects\Image_Processing_Course\ANPR_Final_Project\ANPR_Indian_Plates\ANPR_Indian_Plates.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Main.cpp
+         Main.cpp
+     1>e:\projects\image_processing_course\anpr_final_project\anpr_indian_plates\Main.h(25): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>Main.cpp(151): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(152): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(200): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(201): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(202): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(203): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(300): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(301): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(302): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(303): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(50): warning C4102: 'loop_back' : unreferenced label
+     1>Main.cpp(625): warning C4305: '=' : truncation from 'double' to 'float'
+     1>Main.cpp(627): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Main.cpp(628): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Main.cpp(633): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Level_Detection\Level_Det_Pre_Proc\x64\Debug\ANPR_Indian_Plates.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\OpenCV-3.2.0\opencv\build\x64\vc14\lib" opencv_world310d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Level_Detection\Level_Det_Pre_Proc\x64\Debug\ANPR_Indian_Plates.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Level_Detection\Level_Det_Pre_Proc\x64\Debug\ANPR_Indian_Plates.lib" /MACHINE:X64 x64\Debug\Main.obj
+         ANPR_Indian_Plates.vcxproj -> E:\Level_Detection\Level_Det_Pre_Proc\x64\Debug\ANPR_Indian_Plates.exe
+     1>Done Building Project "E:\Projects\Image_Processing_Course\ANPR_Final_Project\ANPR_Indian_Plates\ANPR_Indian_Plates.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.70
